@@ -39,13 +39,13 @@ const Features = () => {
             />
 
             {/* Title */}
-            <h3 className="text-3xl font-bold mb-2">{item.title}</h3>
+            <h3 className="text-2xl font-bold mb-2">{item.title}</h3>
 
             {/* Description */}
             <p className="text-gray-600 mb-4">{item.desc}</p>
 
             {/* Get Started Link */}
-            <button className="flex items-center text-2xl text-[#0fa205] font-bold hover:underline">
+            <button className="flex items-center text-medium text-[#0fa205] font-bold hover:underline">
               Get Started <FiArrowRight className="ml-2" />
             </button>
           </div>
