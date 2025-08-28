@@ -4,8 +4,13 @@ import { FiMenu, FiX } from "react-icons/fi";
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // Handle link click
+  const handleLinkClick = () => {
+    setIsOpen(false); // close menu
+  };
+
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-4 md:px-12 py-4 bg-white shadow">
+    <nav className="fixed top-0 left-0 w-full flex items-center justify-between px-4 md:px-12 py-4 bg-white shadow z-50">
       {/* Logo */}
       <div className="p-1 md:p-4">
         <img src="./Images/logo-long.svg" alt="Logo" className="h-8 md:h-8" />
@@ -29,7 +34,8 @@ const Nav = () => {
         <ul className="flex flex-col lg:flex-row gap-4 lg:gap-0 lg:items-center lg:space-x-6">
           <li>
             <a
-              href="#"
+              href="#hero"
+              onClick={handleLinkClick}
               className="block px-4 py-2 text-black font-medium rounded hover:bg-gray-100 lg:hover:bg-transparent"
             >
               Home
@@ -37,7 +43,8 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="#features"
+              onClick={handleLinkClick}
               className="block px-4 py-2 text-black font-medium rounded hover:bg-gray-100 lg:hover:bg-transparent"
             >
               Features
@@ -45,7 +52,8 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="#growth"
+              onClick={handleLinkClick}
               className="block px-4 py-2 text-black font-medium rounded hover:bg-gray-100 lg:hover:bg-transparent"
             >
               Grow with us
@@ -53,7 +61,8 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="#location"
+              onClick={handleLinkClick}
               className="block px-4 py-2 text-black font-medium rounded hover:bg-gray-100 lg:hover:bg-transparent"
             >
               Locate us
@@ -61,7 +70,8 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="#footer"
+              onClick={handleLinkClick}
               className="block px-4 py-2 text-black font-medium rounded hover:bg-gray-100 lg:hover:bg-transparent"
             >
               Contact us

@@ -4,7 +4,7 @@ import { FiMapPin } from "react-icons/fi";
 
 const Hero = () => {
   return (
-    <section className="w-full pt-32 bg-white px-4 sm:px-6 md:px-12 lg:px-16 flex flex-col lg:flex-row items-center justify-between gap-10">
+    <section id="hero" className="w-full pt-32 bg-white px-4 sm:px-6 md:px-12 lg:px-16 flex flex-col lg:flex-row items-center justify-between gap-10">
       {/* Left Side */}
       <div className="text-left max-w-xl w-full lg:w-1/2">
         <h1 className="text-7xl sm:text-5xl md:text-8xl lg:text-8xl font-extrabold leading-none text-center lg:text-left">

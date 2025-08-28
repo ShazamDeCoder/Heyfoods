@@ -4,7 +4,7 @@ import { FiArrowRight } from 'react-icons/fi';
 const Variety = () => {
   return (
     <div>
-      <section className="w-full bg-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
+      <section id='variety' className="w-full bg-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between">
         {/* Left Side */}
         <div className="max-w-xl text-left">
           <h2 className="text-4xl md:text-7xl font-extrabold leading-tight mb-6">

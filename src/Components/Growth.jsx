@@ -24,7 +24,7 @@ const Growth = () => {
   ];
 
   return (
-    <section className="w-full bg-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between gap-12">
+    <section id='growth' className="w-full bg-white py-16 px-6 md:px-16 flex flex-col md:flex-row items-center justify-between gap-12">
       {/* Left Side Image */}
       <div className="md:w-1/2 flex justify-center">
         <img

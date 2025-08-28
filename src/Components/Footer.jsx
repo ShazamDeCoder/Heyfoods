@@ -4,7 +4,7 @@ import { FaApple, FaGooglePlay, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinI
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-white">
+      <footer id='footer' className="bg-white">
       <div className="max-w-7xl mx-auto px-6 py-10 grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Logo + Tagline */}
         <div>

@@ -28,6 +28,7 @@ const Location = () => {
 
   return (
     <div>
+      <section id='location'>
       <div className="p-6 max-w-6xl mx-auto">
       <h2 className="text-2xl font-bold mb-6">Cities near me</h2>
 
@@ -60,6 +61,7 @@ const Location = () => {
         </div>
       ))}
     </div>
+    </section>
     </div>
   )
 }
