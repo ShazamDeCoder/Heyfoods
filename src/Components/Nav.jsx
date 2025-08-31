@@ -81,10 +81,10 @@ const Nav = () => {
 
         {/* Buttons */}
         <div className="flex flex-col lg:flex-row gap-3 mt-4 lg:mt-0 lg:ml-6">
-          <button className="px-6 py-2 text-black font-bold rounded-full border hover:bg-gray-100">
+          <button className="px-6 py-2 text-black font-bold rounded-full  hover:bg-gray-100">
             Sign In
           </button>
-          <button className="px-6 py-2 bg-black text-white font-bold rounded-full hover:bg-gray-800">
+          <button className="px-6 py-3 bg-black text-white font-bold rounded-full hover:bg-gray-800">
             Sign Up
           </button>
         </div>

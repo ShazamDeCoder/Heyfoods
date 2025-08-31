@@ -14,7 +14,7 @@ const Hero = () => {
 
         {/* Input and button */}
         <div className="mt-8 flex flex-col lg:flex-row items-center gap-3 w-full">
-          <div className="flex items-center bg-gray-100 rounded-full px-4 py-3 w-full flex-grow shadow-sm">
+          <div className="flex items-center bg-gray-100 rounded-full px-8 py-3 w-full flex-grow shadow-sm">
             <FiMapPin className="text-black mr-2" size={22} />
             <input
               type="text"
@@ -22,27 +22,27 @@ const Hero = () => {
               className="bg-transparent flex-1 outline-none px-4 py-2 text-black placeholder-gray-400"
             />
           </div>
-          <button className="bg-black text-white px-7 py-6 rounded-full font-bold transition w-full lg:w-auto whitespace-nowrap">
+          <button className="bg-black text-white px-7 py-4 rounded-full font-medium transition w-full lg:w-auto whitespace-nowrap">
             Find restaurants
           </button>
         </div>
       </div>
 
       {/* Right Side */}
-      <div className="flex flex-col items-center w-full lg:w-1/2">
+      <div className="flex flex-col items-center lg:ml-[210px]  w-full lg:w-1/2">
         <img
           src="./Images/hero-side.svg"
           alt="Food Delivery"
-          className="w-[260px] sm:w-[320px] md:w-[380px] lg:w-[460px] rounded-2xl shadow-lg"
+          className="w-[260px] sm:w-[320px] md:w-[380px] lg:w-[370px] pl-2  rounded-2xl"
         />
 
         {/* Store Buttons */}
-        <div className="flex flex-col lg:flex-row w-2/3 lg:w-auto gap-4 lg:gap-10 mt-6">
-          <button className="flex items-center justify-center gap-2 bg-black text-white px-7 py-6 rounded-full font-bold hover:bg-gray-800 transition w-full lg:w-auto">
+        <div className="flex flex-col lg:flex-row w-2/3 lg:w-auto gap-4 lg:gap-5 mt-6">
+          <button className="flex items-center justify-center gap-2 bg-black text-white px-7 py-4 rounded-full font-extrabold hover:bg-gray-800 transition w-full lg:w-auto">
             <FaApple size={22} />
             App Store
           </button>
-          <button className="flex items-center justify-center gap-2 bg-black text-white px-7 py-6 rounded-full font-bold hover:bg-gray-800 transition w-full lg:w-auto">
+          <button className="flex items-center justify-center gap-2 bg-black text-white px-7 py-4 rounded-full font-extrabold hover:bg-gray-800 transition w-full lg:w-auto">
             <FaGooglePlay size={22} />
             Play Store
           </button>

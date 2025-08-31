@@ -30,18 +30,18 @@ const Location = () => {
     <div>
       <section id='location'>
       <div className="p-6 max-w-6xl mx-auto">
-      <h2 className="text-2xl font-bold mb-6">Cities near me</h2>
+      <h2 className="text-3xl font-extrabold mb-6">Cities near me</h2>
 
       {citiesData.map((city, index) => (
         <div key={index} className="mb-12">
           {/* City Name */}
-          <h3 className="text-xl font-semibold text-green-700 mb-2">
+          <h3 className="text-xl font-bold underline text-green-700 mb-2">
             {city.name}
           </h3>
 
           {/* Top Areas */}
-          <h4 className="font-semibold mb-2">Top Areas</h4>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2 mb-6">
+          <h4 className="font-bold mb-2">Top Areas</h4>
+          <div className="grid grid-cols-2 font-semibold sm:grid-cols-3 md:grid-cols-6 gap-2 mb-6">
             {city.areas.map((area, i) => (
               <span key={i} className="text-green-600 cursor-pointer hover:underline">
                 {area}
@@ -51,7 +51,7 @@ const Location = () => {
 
           {/* Best Restaurants */}
           <h4 className="font-semibold mb-2">Best Restaurants in {city.name}</h4>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 font-semibold gap-2">
             {city.areas.map((area, i) => (
               <span key={i} className="text-green-600 cursor-pointer hover:underline">
                 Restaurants in {area}

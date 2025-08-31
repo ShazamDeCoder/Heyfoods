@@ -13,20 +13,20 @@ const Footer = () => {
             alt="Heyfood Logo"
             className="h-10 w-auto"
           />
-          <p className="mt-2 text-gray-700">Your food delivered within minutes.</p>
+          <p className="mt-2 text-[17px] font-medium">Your food delivered within minutes.</p>
 
           {/* App Buttons */}
           <div className="flex gap-3 mt-4">
             <a
               href="#"
-              className="bg-black text-white px-4 py-2 rounded-lg flex items-center gap-2"
+              className="bg-black text-white px-4 py-2 rounded-4xl flex items-center gap-2"
             >
               <FaApple size={20} />
               <span className="text-sm">App Store</span>
             </a>
             <a
               href="#"
-              className="bg-black text-white px-4 py-2 rounded-lg flex items-center gap-2"
+              className="bg-black text-white px-4 py-2 rounded-4xl flex items-center gap-2"
             >
               <FaGooglePlay size={20} />
               <span className="text-sm">Play Store</span>
